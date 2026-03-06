@@ -3,64 +3,132 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Tableau Dashboard</title>
+    <title>My Scratch Page</title>
+
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-    <h5>This is my Tableau Dashboard</h5>
+<!-- Navigation back to professional site -->
+<a href="index.html">Back to Professional Site</a>
 
-    <div class="tableauPlaceholder" id="viz1772818605392" style="position: relative">
+<h1 id="top">My Passion: Having a Board under my Feet</h1>
 
-        <noscript>
-            <a href="#">
-                <img 
-                    alt="Fruit"
-                    src="https://public.tableau.com/static/images/US/USFruitConsumption/Fruit/1_rss.png"
-                    style="border: none">
-            </a>
-        </noscript>
+<div class="section">
 
-        <object class="tableauViz" style="display:none;">
+<h2>My Favorite Hobbies</h2>
 
-            <param name="host_url" value="https://public.tableau.com/" />
-            <param name="embed_code_version" value="3" />
-            <param name="site_root" value="" />
-            <param name="name" value="USFruitConsumption/Fruit" />
+<!-- Ordered list with unordered list inside -->
+<ol>
+    <li>Snowboarding
+        <ul>
+            <li>Dropping off of cliffs</li>
+            <li>Hitting rails in the park</li>
+            <li>Gliding through freshly fallen powder</li>
+        </ul>
+    </li>
 
-            <param name="tabs" value="no" />
-            <param name="toolbar" value="yes" />
+    <li>Surfing
+        <ul>
+            <li>Hitting a 360 on a wake behind a boat</li>
+            <li>Catching a 6 foot wave in the ocean</li>
+            <li>Feeling the wind hit my face as I ride on a surfboard</li>
+        </ul>
+    </li>
+</ol>
 
-            <param name="static_image"
-                value="https://public.tableau.com/static/images/US/USFruitConsumption/Fruit/1.png" />
+</div>
 
-            <param name="animate_transition" value="yes" />
-            <param name="display_static_image" value="yes" />
-            <param name="display_spinner" value="yes" />
-            <param name="display_overlay" value="yes" />
-            <param name="display_count" value="yes" />
-            <param name="language" value="en-US" />
 
-            <param name="filter" value="_gl=1*13vsnrn..." />
+<div class="section">
 
-        </object>
+<h2>Surfing on Camera</h2>
 
-    </div>
+<!-- Image -->
+<img src="assets/img/wakesurfing.jpg" alt="Surfing behind a boat" width="400">
 
-    <script type="text/javascript">
+</div>
 
-        var divElement = document.getElementById("viz1772818605392");
-        var vizElement = divElement.getElementsByTagName("object")[0];
+<div class="section">
 
-        vizElement.style.width = "900px";
-        vizElement.style.height = "752px";
+<h2>Kyan doing a 360</h2>
 
-        var scriptElement = document.createElement("script");
-        scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+<!-- YouTube Embed -->
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/sM9D-bNDSeQ"
+title="YouTube video"
+frameborder="0"
+allowfullscreen>
+</iframe>
 
-        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</div>
 
-    </script>
+
+<div class="section">
+
+<h2>Fruit Consumption Visualization</h2>
+
+<p>This interactive Tableau graph shows fruit consumption data.</p>
+
+<!-- Your Tableau Graph -->
+<div class="tableauPlaceholder" id="viz1772818605392" style="position: relative">
+
+<noscript>
+<a href="#">
+<img src="https://public.tableau.com/static/images/US/USFruitConsumption/Fruit/1_rss.png" alt="Fruit Chart">
+</a>
+</noscript>
+
+<object class="tableauViz" style="display:none;">
+
+<param name="host_url" value="https://public.tableau.com/" />
+<param name="embed_code_version" value="3" />
+<param name="site_root" value="" />
+<param name="name" value="USFruitConsumption/Fruit" />
+<param name="tabs" value="no" />
+<param name="toolbar" value="yes" />
+
+<param name="static_image"
+value="https://public.tableau.com/static/images/US/USFruitConsumption/Fruit/1.png" />
+
+<param name="animate_transition" value="yes" />
+<param name="display_static_image" value="yes" />
+<param name="display_spinner" value="yes" />
+<param name="display_overlay" value="yes" />
+<param name="display_count" value="yes" />
+<param name="language" value="en-US" />
+
+</object>
+
+</div>
+
+</div>
+
+
+<!-- Anchor link -->
+<p><a href="#top">Back to Top</a></p>
+
+<!-- Link to your AI app page -->
+<p><a href="app.html">Try My Web App</a></p>
+
+
+<script type="text/javascript">
+
+var divElement = document.getElementById("viz1772818605392");
+var vizElement = divElement.getElementsByTagName("object")[0];
+
+vizElement.style.width="900px";
+vizElement.style.height="750px";
+
+var scriptElement = document.createElement("script");
+scriptElement.src="https://public.tableau.com/javascripts/api/viz_v1.js";
+
+vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+</script>
 
 </body>
 </html>
